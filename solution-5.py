@@ -1,11 +1,18 @@
 # Paula Daly Solution to Problem 5
 # Prime Numbers
+# taking input from user
+number = int(input("Enter any number: "))
 
-for n in range(2, 10):
-    for x in range(2, n):
-        if n % x == 0:
-            print(n, 'equals', x, '*', n//x)
+# prime number is always greater than 1
+if number > 1:
+    for i in range(2, number):
+        if (number % i) == 0:
+            print(number, "is not a prime number")
             break
     else:
-        # loop fell through without finding a factor
-        print(n, 'is a prime number')
+        print(number, "is a prime number")
+
+# if the entered number is less than or equal to 1
+# then it is not prime number
+else:
+    print(number, "is not a prime number")

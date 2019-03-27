@@ -5,6 +5,6 @@ import math
 num = float(input("Please enter a positive number: "))
 if num > 0:
     print (f"the square root of {num} is approx.")
-    print (math.sqrt(num))
+    print (round(math.sqrt(num),1))
 else:
     print(num, "is not a prime number")

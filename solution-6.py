@@ -1,4 +1,4 @@
-# Paula Daly Solution to Problem 5
+# Paula Daly Solution to Problem 6
 # strings
 sentence = input("Please enter a sentence: ")
 # spliting the sentance entered

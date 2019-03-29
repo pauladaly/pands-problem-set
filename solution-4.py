@@ -1,4 +1,4 @@
-# Paula Daly Solution to Problem 5
+# Paula Daly Solution to Problem 4
 # Collatz
 
 def collatz(number):

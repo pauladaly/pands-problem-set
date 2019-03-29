@@ -1,4 +1,4 @@
-# Paula Daly Solution to Problem 5
+# Paula Daly Solution to Problem 7
 # Square root
 # import math module 
 import math

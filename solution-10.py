@@ -1,3 +1,17 @@
-with open("moby-dick.txt", "r") as f:
-  for l in f.read().split("\n")[1::2]:
-    print(l)   
+# Paula Daly Solution to Problem 10
+# Plotting
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.arange(0,4)
+# plotting functions
+plt.plot(x, x)
+plt.plot(x, x**x)
+plt.plot(x, 2**x)
+
+# Display Legend
+plt.legend(['y = x', 'y = x2', 'y=2x'], loc='upper left')
+
+plt.show()
+

@@ -1,4 +1,4 @@
-# Paula Daly Solution to Problem 5
+# Paula Daly Solution to Problem 5 March 2019
 # Prime Numbers
 # taking input from user
 number = int(input("Enter any number: "))

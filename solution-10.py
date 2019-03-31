@@ -1,4 +1,4 @@
-# Paula Daly Solution to Problem 10
+# Paula Daly Solution to Problem 10 March 2019
 # Plotting
 
 import matplotlib.pyplot as plt
